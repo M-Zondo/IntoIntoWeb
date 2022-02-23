@@ -1,7 +1,9 @@
+
 body{
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size:110%;
-  background-color: #FCF7F8;
+  background-color: pink;
+ 
 }
 
 header {
@@ -11,4 +13,37 @@ header {
 footer {
   background-color: #343330;
   text-align: center;
+}
+
+.nav-menu {
+  list-style-type: none;
+  padding: 0%;
+}
+
+#profile-pic{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+.icons{
+  border-radius: 30% ;
+  width: 3rem;
+  height: 3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: stretch;
+}
+div {
+  border: 1px solid;
+}
+
+h2{
+  text-decoration-line: underline;
+}
+.right-side{
+flex-shrink: 1rem;
 }
