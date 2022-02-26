@@ -2,23 +2,12 @@
 body{
   font-family: 'Times New Roman', Times, serif;
   font-size:110%;
-  background-color: pink;
- 
 }
 
 header {
   text-align: center;
 }
 
-footer {
-  background-color: #343330;
-  text-align: center;
-}
-
-.nav-menu {
-  list-style-type: none;
-  padding: 0%;
-}
 
 #profile-pic{
   border-radius: 50%;
@@ -33,17 +22,55 @@ footer {
 
 .container {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  align-items: stretch;
+
 }
 div {
-  border: 1px solid;
+  border: none;
+  
 }
 
 h2{
   text-decoration-line: underline;
+  text-align: center;
 }
+
+.left-side{
+  background-color: grey;
+ 
+}
+
+#location{
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+#Cellphone{
+border-radius: 50%;
+height: 2rem;
+width: 2rem;
+}
+
 .right-side{
-flex-shrink: 1rem;
+  padding: 50px;
+ }
+
+.name{
+  text-align: center;
+  font-size: 40px;
+  ;
+}
+
+.nav-menu{
+  background-color: grey;
+  text-align: center;
+  list-style: none;
+}
+
+.lists{
+  list-style: none;
+}
+
+h4{
+ text-decoration-line: underline; 
 }
